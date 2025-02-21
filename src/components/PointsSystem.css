@@ -1,0 +1,47 @@
+.points-system {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.points-system h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.points-summary {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.incentives-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.incentive {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.incentive-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.incentive-points {
+  margin-bottom: 10px;
+}
+
+.redeem-button {
+  padding: 10px 20px;
+  background-color: #38a169;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
